@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "KONTAKT OS",
+        "content": "<p>Du er altid velkommen til at kontakte os, hvis du har spørgsmål! Da vi har massive henvendelser på vores email, gør vi alt for at besvare indenfor 1-3 hverdage.<\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "faq_YjGLD3": {
+      "type": "faq",
+      "blocks": {
+        "item_CMkz8N": {
+          "type": "item",
+          "settings": {
+            "title": "Levering",
+            "content": "<p>Bestiller du før kl 14.00, bestræber vi os efter at din ordre sendes samme dag. Ordrer afgivet efter kl. 14.00 bliver sendt dagen efter. Du modtager din ordre indenfor 1-2 hverdage.<br\/><br\/>Oftest leverer vi indenfor 24 timer.<br\/><br\/><strong>Burd Delievery <\/strong><em><strong>SAMME-DAGS-LEVERING<\/strong><\/em><em> (gælder kun dele af sjælland)<\/em>Du kan bestille frem til kl. 13:30 & sikre dig at din pakke leveres mellem 18-22 på din adresse samme dag. Det koster kun 29kr. <br\/><br\/><em><strong>DAGEN-EFTER-LEVERING<\/strong><\/em><em> (Fyn & Jylland leveres)<\/em>Du kan bestille frem til kl. 13:30 & sikre dig at din pakke leveres dagen efter til kun 29kr.<\/p>"
+          }
+        },
+        "item_JbVdDJ": {
+          "type": "item",
+          "settings": {
+            "title": "Gratis Ombytning",
+            "content": "<p><em><strong>Vi håndterer din ombytning indenfor 2-7 dage<\/strong><\/em><strong><br\/><\/strong><a href=\"https:\/\/camillakroeyer.dk\/pages\/ombytningsportal\"><strong><br\/><\/strong><\/a>Hvis du vil ombytte en style fra din ordre skal du blot returnere den oprindelige vare, skrive at du ønsker ombytning og vi sender den korrekte størrelse\/style til dig.<br\/><br\/>Ved ombytning skal du bruge denne portal for at få en gratis forsendelses label: <a href=\"https:\/\/camillakroeyer.dk\/pages\/ombytningsportal\"><strong>FÅ DIN OMBYTNINGSLABEL HER<br\/><br\/><\/strong><\/a>1.Pak varerne som du ønsker ombyttet<\/p><p>2.Hent din QR returkode ned på din tlf.<\/p><p>3.Brug din oprindelige kasse til retur - må ikke overskride 20*20cm<\/p><p>4.Gå til din nærmeste <strong>GLS pakkeshop<\/strong> aflevere returpakken & vis dem QR koden på din telefon<\/p><p>5.Pakkeshoppen printer nu en returlabel til din forsendelse<br\/><br\/>Når du sender retur, så skal den sendes retur i en kasse på samme størrelse som den du fik - den må ikke overgå målene af 20*20*6cm.<br\/><br\/>Sender du retur med ovenstående label og ønsker pengene refunderet, vil du blive opkrævet 35kr. da det kun gælder ombytninger.<\/p>"
+          }
+        },
+        "item_EbKapH": {
+          "type": "item",
+          "settings": {
+            "title": "Penge Retur",
+            "content": "<p>Du har 30 dages returret fra den dag pakken modtages.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_CMkz8N",
+        "item_JbVdDJ",
+        "item_EbKapH"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Se flere ofte stillede spørgsmål her",
+        "answer_time": "",
+        "button_text": "FAQ",
+        "button_url": "shopify:\/\/pages\/faq",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact",
+    "faq_YjGLD3"
+  ]
+}

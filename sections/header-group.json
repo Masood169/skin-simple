@@ -1,0 +1,112 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_FYej7G": {
+          "type": "message",
+          "settings": {
+            "text": "Fri fragt",
+            "url": ""
+          }
+        },
+        "message_MN73zF": {
+          "type": "message",
+          "settings": {
+            "text": "1-2 dages levering",
+            "url": ""
+          }
+        },
+        "message_pDQ9fT": {
+          "type": "message",
+          "settings": {
+            "text": "Dansk virksomhed",
+            "url": ""
+          }
+        },
+        "message_Y4K4Wc": {
+          "type": "message",
+          "settings": {
+            "text": "Abonnér og spar 50%",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message_FYej7G",
+        "message_MN73zF",
+        "message_pDQ9fT",
+        "message_Y4K4Wc"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 30,
+        "background": "#8a6f48",
+        "background_gradient": "linear-gradient(320deg, rgba(3, 3, 3, 1) 16%, rgba(138, 111, 72, 1) 52%, rgba(138, 111, 72, 1) 87%)",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_WRF3bB": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "drawer",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_WRF3bB"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/Simple_Skin_Logo_1.png",
+        "logo_max_width": 250,
+        "logo_mobile_max_width": 120,
+        "menu": "",
+        "sidebar_menu": "main-menu",
+        "secondary_menu": "footer",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "drawer",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Simple_Skin_Logo_hvid_white.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

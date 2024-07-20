@@ -1,0 +1,72 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_t67yEF": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h6",
+            "title": "Nyhedsbrev",
+            "content": "<p>Du får eksklusivt adgang til nye produkter, hemmelige rabatkoder og gaver.<\/p>"
+          }
+        },
+        "links_nfg3Dw": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_DpLVRJ": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text_k7WHji": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Simpleskin I\/S",
+            "content": "<p>Spotorno alle 32, Høje Taastrup<\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "text_Rny7Qa": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_t67yEF",
+        "links_nfg3Dw",
+        "links_DpLVRJ",
+        "text_k7WHji",
+        "text_Rny7Qa"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "f-text": "© 2024, Showerlabs ApS \nCVR: 44646331\n Tlf: +45 41115628 Strandboulevarden 82, København Ø\ninfo@showerlabs.dk",
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

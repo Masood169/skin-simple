@@ -1,0 +1,480 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_UFYBLg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign tab1_content = product.metafields.custom.tab1_content %}\n{% assign tab2_content = product.metafields.custom.tab2_content %}\n{% assign tab3_content = product.metafields.custom.tab3_content %}\n{% assign tab4_content = product.metafields.custom.tab4_content %}\n{% assign tab5_content = product.metafields.custom.tab5_content %}\n\n{% assign tab1 = product.metafields.custom.tab1 %}\n{% assign tab2 = product.metafields.custom.tab2 %}\n{% assign tab3 = product.metafields.custom.tab3 %}\n{% assign tab4 = product.metafields.custom.tab4 %}\n{% assign tab5 = product.metafields.custom.tab5 %}\n\n<div class=\"navigation show-desktop\">\n            <div class=\"tabs\">\n                <span class=\"tab active\" data-tab=\"1\">{{ tab1 }}<\/span>\n                <span class=\"tab\" data-tab=\"2\">{{ tab2 }}<\/span>\n                <span class=\"tab\" data-tab=\"3\">{{ tab3 }}<\/span>\n                <span class=\"tab\" data-tab=\"4\">{{ tab4 }}<\/span>\n                <span class=\"tab\" data-tab=\"5\">{{ tab5 }}<\/span>\n            <\/div>\n            <div class=\"content-tab active\" data-tab=\"1\">\n                <p>{{ tab1_content }}<\/p>\n            <\/div>\n            <div class=\"content-tab\" data-tab=\"2\">\n              <p>{{ tab2_content }}<\/p>\n            <\/div>\n            <div class=\"content-tab\" data-tab=\"3\">\n                <p>{{ tab3_content }}<\/p>\n            <\/div>\n            <div class=\"content-tab\" data-tab=\"4\">\n                <p>{{ tab4_content }}<\/p>\n            <\/div>\n            <div class=\"content-tab\" data-tab=\"5\">\n                <p>{{ tab5_content }}<\/p>\n            <\/div>\n        <\/div>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "Vælg antal,",
+            "size_chart_page": ""
+          }
+        },
+        "subscriptions_app_block_QeJk8y": {
+          "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "settings": {
+            "color_text_title": "#6d7175",
+            "color_text_body": "#6d7175",
+            "dividers_color": "#8f8d8d",
+            "bacgkround_color": "#ffffff",
+            "border_thickness": 1,
+            "border_radius": 0,
+            "supporting_text_title": "Purchase options",
+            "subscription_policy_url": "",
+            "product": "the-essential™"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#8a6f48",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "liquid_UFYBLg",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "subscriptions_app_block_QeJk8y",
+        "buy_buttons",
+        "description",
+        "quantity_selector"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": false,
+        "desktop_media_width": 40,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "1710941015f5bf09e3": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "gif_product_jQr7gy": {
+      "type": "gif-product",
+      "settings": {
+        "section_heading": "MILO BRUSEHOVED",
+        "left-heading1": "Can be installed in less than 60 seconds",
+        "left-heading2": "You do not need to be handy or use tools to install the shower head. It fits all Danish bathrooms. It fits all Danish bathrooms.",
+        "gif-url": "https:\/\/showerlabs.dk\/cdn\/shop\/files\/habibi-ezgif.com-video-to-gif-converter.gif?v=1709397627&amp;width=600",
+        "pdp-img": "shopify:\/\/shop_images\/render4.jpg",
+        "pdp-title": "Try risk-free for 30 days",
+        "pdp-text": "Er du i tvivl? Du kan prøve MILO risikofrit i 30 dage. Hvis du ikke er tilfreds, så er du kun 2 klik fra at få alle pengene tilbage.",
+        "pdp-url-text": "buy now"
+      }
+    },
+    "multi_column_jywXyE": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3y7mR6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083c76c029e6--Base-Layer-7a1f07.svg",
+            "column_size": "3",
+            "title": "Try risk-free for 30 days",
+            "heading_tag": "h5",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8t6GWm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083c76c029e6--Base-Layer-7a1f07.svg",
+            "column_size": "3",
+            "title": "Try risk-free for 30 days",
+            "heading_tag": "h5",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_zxBdGq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083c76c029e6--Base-Layer-7a1f07.svg",
+            "column_size": "3",
+            "title": "Try risk-free for 30 days",
+            "heading_tag": "h5",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Xe7Bq4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083c76c029e6--Base-Layer-7a1f07.svg",
+            "column_size": "3",
+            "title": "Try risk-free for 30 days",
+            "heading_tag": "h5",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7n3AKQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/083c76c029e6--Base-Layer-7a1f07.svg",
+            "column_size": "3",
+            "title": "Try risk-free for 30 days",
+            "heading_tag": "h5",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3y7mR6",
+        "item_8t6GWm",
+        "item_zxBdGq",
+        "item_Xe7Bq4",
+        "item_7n3AKQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#8a6f48",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "media_with_text_VKc7qc": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rzq4NR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Forside_blog_1x1_f8012c38-0db6-4725-b7b4-b94e5a422122.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "picto-coupon",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Hvorfor er hudpleje vigtigt?",
+            "content": "<p>Dit badevand indeholder kalk, pesticider, tungmetaller, PFAS og andre skadelige kemikalier. Det udtørrer og ælder din hud, og reducerer dit hårs styrke, glans og farve.<\/p>",
+            "link_text": "Læs mere",
+            "link_url": "shopify:\/\/products\/the-essential™",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#8a6f48",
+            "text_gradient": "",
+            "button_background": "#8a6f48",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rzq4NR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "custom_hotspots_nKeJ4D": {
+      "type": "custom-hotspots",
+      "blocks": {
+        "item_fywMMt": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "item_QxFAzw": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "item_jgrUbi": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "item_8mnkeA": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "text_NY6FkY": {
+          "type": "text",
+          "settings": {
+            "left_text": "test1",
+            "right_text": "test1"
+          }
+        },
+        "text_HDJarA": {
+          "type": "text",
+          "settings": {
+            "left_text": "test2",
+            "right_text": "test3"
+          }
+        },
+        "text_tefwpQ": {
+          "type": "text",
+          "settings": {
+            "left_text": "test3",
+            "right_text": "test3"
+          }
+        },
+        "text_Kqcc3t": {
+          "type": "text",
+          "settings": {
+            "left_text": "test4",
+            "right_text": "test4"
+          }
+        },
+        "text_V6rWBk": {
+          "type": "text",
+          "settings": {
+            "left_text": "test5",
+            "right_text": "test5"
+          }
+        }
+      },
+      "block_order": [
+        "item_fywMMt",
+        "item_QxFAzw",
+        "item_jgrUbi",
+        "item_8mnkeA",
+        "text_NY6FkY",
+        "text_HDJarA",
+        "text_tefwpQ",
+        "text_Kqcc3t",
+        "text_V6rWBk"
+      ],
+      "settings": {
+        "sep-head": "Specifikationer",
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/New_Project.webp",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "accordion_content_3E6aEk": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_iwLEYn": {
+          "type": "item",
+          "settings": {
+            "title": "Question 1",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "item_CaB7Xi": {
+          "type": "item",
+          "settings": {
+            "title": "Question 2",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "item_dDMXKB": {
+          "type": "item",
+          "settings": {
+            "title": "Question 3",
+            "content": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_iwLEYn",
+        "item_CaB7Xi",
+        "item_dDMXKB"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ofte stillede spørgsmål",
+        "content": "<p>Kan du ikke finde svar? <a href=\"https:\/\/showerlabs.dk\/pages\/kontakt\" target=\"_blank\">Kontakt os<\/a><\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#8a6f48",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1710941015f5bf09e3",
+    "gif_product_jQr7gy",
+    "multi_column_jywXyE",
+    "media_with_text_VKc7qc",
+    "custom_hotspots_nKeJ4D",
+    "accordion_content_3E6aEk"
+  ]
+}

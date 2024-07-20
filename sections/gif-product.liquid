@@ -1,0 +1,89 @@
+<div class="section section--narrow section-blends section-full">
+    <h2 class="p1 feature-title">{{ section.settings.section_heading }}</h2>
+    <div class="feature-container">
+    <div class="features">
+    <div class="features-text">
+    <h2 class="p4">{{ section.settings.left-heading1 }}</h2>
+    <p>{{ section.settings.left-heading2 }}</p>
+    </div>
+    {%  if section.settings.gif != blank %}
+    <img src="{{ section.setting.gif | img_url: '1000x1000'  }}"  />
+ 
+    {%  else %}
+    <img src="https://showerlabs.dk/cdn/shop/files/habibi-ezgif.com-video-to-gif-converter.gif?v=1709397627&amp;width=600"  />
+    {% endif %}
+
+</div>
+    <div class="risk-free"><img src="{{ section.settings.pdp-img | img_url: '1000x1000' }}" alt="{{ section.settings.pdp-img.alt }}" />
+    <div class="risk-free-text">
+    <h2 class="p4">{{ section.settings.pdp-title }}</h2>
+    <p>{{ section.settings.pdp-text }}</p>
+    </div>
+    <a class="button button--lg" href="#top-pdp"><span>{{ section.settings.pdp-url-text }}</span></a></div>
+    </div>
+    </div>
+
+    
+{% schema %}
+{
+  "name": "PDP Custom Section",
+  "class": "shopify-section--pdp",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading"
+    },
+    {
+        "type": "text",
+        "id": "left-heading1",
+        "label": "Left Heading 1"
+      },
+      {
+        "type": "text",
+        "id": "left-heading2",
+        "label": "Left Heading 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "gif",
+        "label": "Upload your Gif Here"
+      },
+      {
+        "type": "textarea",
+        "id": "gif-url",
+        "label": "Paste your Gif Url Here"
+      },
+      {
+        "type": "image_picker",
+        "id": "pdp-img",
+        "label": "Upload your product image Here"
+      },
+      {
+        "type": "text",
+        "id": "pdp-title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id": "pdp-text",
+        "label": "Content Here"
+      },
+      {
+        "type": "text",
+        "id": "pdp-url-text",
+        "label": "Product Link Text"
+      }
+
+  ],
+
+"presets": [
+    {
+      "name": "PDP Custom Section"
+    
+}
+]
+}
+
+{%  endschema %}
